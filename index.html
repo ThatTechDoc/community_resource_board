@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Resource Board</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <!-- HEADER -->
+    <header class="bg-blue-700 text-white p-4 shadow">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-bold">Community Resource Board</h1>
+            <nav class="space-x-4">
+                <a href="index.html" class="hover:underline">Home</a>
+                <a href="post_resource.html" class="hover:underline">Resource</a>
+                <a href="categories.html" class="hover:underline">Categories</a>
+                <a href="about_page.html" class="hover:underline">About</a>
+            </nav>
+        </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="bg-blue-100 py-8 px-4">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold">Find and Share Local Resources</h2>
+            <p class="mt-2 text-lg">Food banks, clinics, free classes, jobs, and more.</p>
+        </div>
+  </section>
+
+  <!-- RESOURCE GRID -->
+  <main class="py-10 px-4">
+        <div class="container mx-auto grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+            <!-- FOOD -->
+            <div class="bg-white shadow-md rounded-lg p-5 border-t-4 border-red-400  hover:shadow-xl transition-shadow">
+                <h3 class="text-xl font-bold text-red-700 mb-2">The Place</h3>
+                <p class="mb-2">Open Mon–Sat, 9AM–8PM.</p>
+                <p class="mb-2">Free groceries and essentials every Monday & Thursday.</p>
+                <p class="text-sm text-gray-700">📍 123 Main Street, Lagos</p>
+                <p class="text-sm text-gray-700">📞 0812-345-6789</p>
+                <span class="mt-4 inline-block text-sm bg-red-100 text-red-700 px-2 py-1 rounded">Food</span>
+            </div>
+           
+            <div class="bg-white shadow-md rounded-lg p-5 border-t-4 border-red-400  hover:shadow-xl transition-shadow">
+                <h3 class="text-xl font-bold text-red-700 mb-2">City Food Bank</h3>
+                <p class="mb-2">Open Mon–Sat, 9AM–10PM.</p>
+                <p class="mb-2">Free groceries every Thursday & Saturday.</p>
+                <p class="text-sm text-gray-700">📍 lawanson road, Surulere, Lagos</p>
+                <p class="text-sm text-gray-700">📞 0806-395-8889</p>
+                <span class="mt-4 inline-block text-sm bg-red-100 text-red-700 px-2 py-1 rounded">Food</span>
+            </div>
+
+            <!-- Education -->
+            <div class="bg-white shadow-md rounded-lg p-5 border-t-4 border-green-400 hover:shadow-xl transition-shadow">
+                <h3 class="text-xl font-bold text-green-700 mb-2">Youth Free Coding Bootcamp</h3>
+                <p class="mb-2">Offers Online Classes too.</p>
+                <p class="mb-2">4-week intro to web development for teens.</p>
+                <p class="text-sm text-gray-700">📍 78 Tech Road, Abeokuta</p>
+                <p class="text-sm text-gray-700">📞 0803-222-4567</p>
+                <span class="mt-4 inline-block text-sm bg-green-100 text-green-700 px-2 py-1 rounded">Education</span>
+            </div>
+
+            <!-- Health -->
+            <div class="bg-white shadow-md rounded-lg p-5 border-t-4 border-blue-400  hover:shadow-xl transition-shadow">
+                <h3 class="text-xl font-bold text-blue-700 mb-2">Community Health Clinic</h3>
+                <p class="mb-2">Open Mon–Sat, 7AM–7PM.</p>
+                <p class="mb-2">Free checkups every Wednesday. Walk-ins welcome.</p>
+                <p class="text-sm text-gray-700">📍 45 Health Street, Enugu</p>
+                <p class="text-sm text-gray-700">📞 0702-888-1111</p>
+                <span class="mt-4 inline-block text-sm bg-blue-100 text-blue-700 px-2 py-1 rounded">Health</span>
+            </div>
+
+            <!-- Jobs -->
+            <div class="bg-white shadow-md rounded-lg p-5 border-t-4 border-yellow-400 hover:shadow-xl transition-shadow">
+                <h3 class="text-xl font-bold text-yellow-700 mb-2">Job Support Center</h3>
+                <p class="mb-2">Online Services only.</p>
+                <p class="mb-2">Free CV help and job listings updated weekly.</p>
+                <p class="text-sm text-gray-700">📍 10 Opportunity Ave, Kaduna</p>
+                <p class="text-sm text-gray-700">📞 0905-321-4567</p>
+                <span class="mt-4 inline-block text-sm bg-yellow-100 text-yellow-700 px-2 py-1 rounded">Job</span>
+            </div>
+
+            <!-- Education -->
+            <div class="bg-white shadow-md rounded-lg p-5 border-t-4 border-green-400 hover:shadow-xl transition-shadow">
+                <h3 class="text-xl font-bold text-green-700 mb-2">Free English Lessons</h3>
+                <p class="mb-2">Open Tue & Thur, 9AM–2PM.</p>
+                <p class="mb-2">Adult literacy class every Tuesday and Thursday.</p>
+                <p class="text-sm text-gray-700">📍 22 Learn Lane, Ibadan</p>
+                <p class="text-sm text-gray-700">📞 0810-555-9876</p>
+                <span class="mt-4 inline-block text-sm bg-green-100 text-green-700 px-2 py-1 rounded">Education</span>
+            </div>
+
+            <!-- Food -->
+            <div class="bg-white shadow-md rounded-lg p-5 border-t-4 border-red-400 hover:shadow-xl transition-shadow">
+                <h3 class="text-xl font-bold text-red-700 mb-2">Faith Kitchen</h3>
+                <p class="mb-2">Open Mon-Sat, 9AM–8PM.</p>
+                <p class="mb-2">Free hot meals available daily.</p>
+                <p class="text-sm text-gray-700">📍 7 Blessing Blvd, Port Harcourt</p>
+                <p class="text-sm text-gray-700">📞 0706-112-3344</p>
+                <span class="mt-4 inline-block text-sm bg-red-100 text-red-700 px-2 py-1 rounded">Food</span>
+            </div>
+
+            <!-- Health -->
+            <div class="bg-white shadow-md rounded-lg p-5 border-t-4 border-blue-400  hover:shadow-xl transition-shadow">
+                <h3 class="text-xl font-bold text-blue-700 mb-2">Mental Wellness Helpline</h3>
+                <p class="mb-2">Online Services only.</p>
+                <p class="mb-2">Free counseling available 24/7.</p>
+                <p class="text-sm text-gray-700">📞 0800-CARE-NOW</p>
+                <span class="mt-4 inline-block text-sm bg-blue-100 text-blue-700 px-2 py-1 rounded">Health</span>
+            </div>
+
+            <!-- Jobs -->
+            <div class="bg-white shadow-md rounded-lg p-5 border-t-4 border-yellow-400 hover:shadow-xl transition-shadow">
+                <h3 class="text-xl font-bold text-yellow-700 mb-2">Skills Training Hub</h3>
+                <p class="mb-2">Open Mon-Sat 9AM–5PM.</p>
+                <p class="mb-2">Free workshops in tailoring, carpentry & more.</p>
+                <p class="text-sm text-gray-700">📍 33 Skill Street, Osogbo</p>
+                <p class="text-sm text-gray-700">📞 0812-333-4444</p>
+                <span class="mt-4 inline-block text-sm bg-yellow-100 text-yellow-700 px-2 py-1 rounded">Job</span>
+            </div>
+
+            <!-- Help -->
+            <div class="bg-white shadow-md rounded-lg p-5 border-t-4 border-purple-400 hover:shadow-xl transition-shadow">
+                <h3 class="text-xl font-bold text-purple-700 mb-2">Emergency Shelter Access</h3>
+                <p class="mb-2">Open 24/7.</p>
+                <p class="mb-2">Temporary housing for families in crisis.</p>
+                <p class="text-sm text-gray-700">📍 89 Hope Rd, Jos</p>
+                <p class="text-sm text-gray-700">📞 0901-777-7777</p>
+                <span class="mt-4 inline-block text-sm bg-purple-100 text-purple-700 px-2 py-1 rounded">Help</span>
+            </div>
+        </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-blue-700 text-white text-center p-4">
+        <p>&copy; 2025 Community Resource Board. All rights reserved.</p>
+  </footer>
+</body>
+</html>

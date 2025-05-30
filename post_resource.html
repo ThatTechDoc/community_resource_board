@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resource Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- HEADER -->
+  <header class="bg-blue-700 text-white p-4 shadow">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-bold">Community Resource Board</h1>
+            <nav class="space-x-4">
+                <a href="index.html" class="hover:underline">Home</a>
+                <a href="post_resource.html" class="hover:underline">Resource</a>
+                <a href="categories.html" class="hover:underline">Categories</a>
+                <a href="about_page.html" class="hover:underline">About</a>
+            </nav>
+        </div>
+  </header>
+
+  <!-- FORM SECTION -->
+  <main class="max-w-3xl mx-auto mt-10 p-6 bg-white shadow rounded-lg">
+        <h2 class="text-2xl font-bold mb-6">Post a New Resource</h2>
+        <form class="space-y-6">
+            <!-- Resource Title -->
+            <div>
+                <label for="title" class="block text-sm font-medium text-gray-700">Resource Title</label>
+                <input type="text" id="title" name="title" required
+                    class="mt-1 block w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+            </div>
+        
+            <!-- Category -->
+            <div>
+                <label for="category" class="block text-sm font-medium text-gray-700">Category</label>
+                <select id="category" name="category" required
+                        class="mt-1 block w-full border border-gray-300 rounded-md p-2">
+                    <option value="">-- Select Category --</option>
+                    <option value="food">Food</option>
+                    <option value="health">Health</option>
+                    <option value="education">Education</option>
+                    <option value="jobs">Jobs</option>
+                    <option value="help">Help</option>
+                </select>
+            </div>
+
+            <!-- Description -->
+            <div>
+                <label for="description" class="block text-sm font-medium text-gray-700">Description</label>
+                <textarea id="description" name="description" rows="4" required
+                    class="mt-1 block w-full border border-gray-300 rounded-md p-2"></textarea>
+            </div>
+
+            <!-- Contact Info -->
+            <div>
+                <label for="contact" class="block text-sm font-medium text-gray-700">Contact Information</label>
+                <input type="text" id="contact" name="contact" required
+                    class="mt-1 block w-full border border-gray-300 rounded-md p-2" />
+            </div>
+
+            <!-- Location -->
+            <div>
+                <label for="location" class="block text-sm font-medium text-gray-700">Location</label>
+                <input type="text" id="location" name="location" required
+                    class="mt-1 block w-full border border-gray-300 rounded-md p-2" />
+            </div>
+
+            <!-- Submit Button -->
+            <div>
+                <button type="submit"
+                    class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-md">
+                 Submit Resource
+                </button>
+            </div>
+        </form>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-blue-700 text-white text-center p-4 mt-10">
+        <p>&copy; 2025 Community Resource Board. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

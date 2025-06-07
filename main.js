@@ -1,18 +1,17 @@
 // Simulated data — community resources (array of objects)
 var resources = [
-  { title: "Free Lunch Boxes", type: "food", location: "Community Center", urgency: 3 },
-  { title: "Urgent Medical Checkup", type: "health", location: "Clinic", urgency: 5 },
-  { title: "Part-time Housekeeping Job", type: "job", location: "Downtown", urgency: 4 },
-  { title: "Evening Coding Class", type: "education", location: "Library", urgency: 2 },
-  { title: "Urgent Blood Donation", type: "health", location: "Main Hospital", urgency: 5 },
-  { title: "Volunteer Tutoring", type: "education", location: "School", urgency: 1 },
-  { title: "Job Fair", type: "job", location: "City Hall", urgency: 3 },
-  { title: "Free Groceries", type: "food", location: "Food Bank", urgency: 4 }
+  { title: "Free hot meals availale daily", type: "food", location: "Faith Kitchen", urgency: 1 },
+  { title: "Shelter Access", type: "help", location: "Clinic", urgency: 5 },
+  { title: "Part-time Housekeeping Job", type: "job", location: "Job Support Center", urgency: 4 },
+  { title: "4-week intro to web development for teens", type: "education", location: "Youth Free Coding Bootcamp", urgency: 3 },
+  { title: "Urgent Blood Donation and medical checkups", type: "health", location: "Community Health Clinic", urgency: 2 },
+  { title: "Free tutoring for students in JSS and SSS levels", type: "education", location: "After-School Volunteer Tutoring", urgency: 3 },
+  { title: "Job Fair", type: "job", location: "Job Search Hub", urgency: 4 },
+  { title: "Free Groceries", type: "food", location: "Food Bank", urgency: 1 }
 ];
 
-// ----------------------------
-// ✅ STEP 1: GROUP BY TYPE
-// ----------------------------
+
+// STEP 1: GROUP BY TYPE
 
 // We'll use an object to group types
 var groupedByType = {}; // e.g., { food: [..], job: [..] }
@@ -44,9 +43,8 @@ for (var key in groupedByType) {
   }
 }
 
-// ----------------------------
-// ✅ STEP 2: URGENCY 4 or 5
-// ----------------------------
+
+// STEP 2: URGENCY 4 or 5
 
 console.log("\n🚨 High Urgency Resources (4 or 5):");
 
